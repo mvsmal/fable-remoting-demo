@@ -1,0 +1,29 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+nuget Elmish.Toastr
+nuget FSharp.Core
+nuget Saturn
+
+nuget Fable.Elmish.HMR
+nuget Fable.Core
+nuget Fable.React
+nuget Fable.Elmish.React
+nuget Fable.Elmish.Browser
+nuget Fable.Elmish.Debugger
+nuget Fable.MaterialUI
+nuget Fable.Remoting.Client
+nuget Fable.Remoting.Giraffe
+
+clitool dotnet-fable
+
+// [ FAKE GROUP ]
+group Build
+  source https://api.nuget.org/v3/index.json
+  storage: none
+  framework: netstandard2.0
+
+  nuget Fake.DotNet.Cli
+  nuget Fake.IO.FileSystem
+  nuget Fake.Core.Target
+  nuget Fake.JavaScript.Yarn

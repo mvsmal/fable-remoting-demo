@@ -1,0 +1,41 @@
+{
+  "name": "fable-remoting-demo",
+  "version": "1.0.0",
+  "description": "Online test trainer",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --inline --progress",
+    "split": "fable-splitter src/tt-ui/tt-ui.fsproj --outDir out"
+  },
+  "keywords": [],
+  "author": "Mikhail Smal",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "@material-ui/core": "^3.5.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "remotedev": "^0.2.7",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "fable-loader": "^2.0.0",
+    "fable-splitter": "^2.0.2",
+    "favicons-webpack-plugin": "^0.0.9",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "loglevel": "^1.6.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.10.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}

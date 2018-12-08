@@ -1,0 +1,5 @@
+http://localhost:5000/context/ExampleStore/message
+###
+http://localhost:5000/context/ExampleStore/brokenMessage
+###
+http://localhost:5000/context/ExampleStore/unknownError

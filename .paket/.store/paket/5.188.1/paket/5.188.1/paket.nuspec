@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Paket</id>
+    <version>5.188.1</version>
+    <authors>Paket team</authors>
+    <licenseUrl>http://fsprojects.github.io/Paket/license.html</licenseUrl>
+    <projectUrl>http://fsprojects.github.com/Paket</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fsprojects/Paket/master/docs/files/img/logo.png</iconUrl>
+    <description>A dependency manager for .NET with support for NuGet packages and git repositories.</description>
+    <summary>A dependency manager for .NET with support for NuGet packages and git repositories.</summary>
+    <releaseNotes>REVERT: Adjustable timeouts for NuGet - https://github.com/fsprojects/Paket/pull/3383
+REVERT: Retry automatically when a request times out - https://github.com/fsprojects/Paket/pull/3424</releaseNotes>
+    <tags>nuget bundler F#</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+</package>

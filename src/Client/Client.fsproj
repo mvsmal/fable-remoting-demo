@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Utils.fs" />
+    <Compile Include="Demo/Demo.fs" />
+
+    <Compile Include="BasicMovieClient/Types.fs" />
+    <Compile Include="BasicMovieClient/State.fs" />
+    <Compile Include="BasicMovieClient/View.fs" />
+    <Compile Include="Auth/Types.fs" />
+    <Compile Include="Auth/State.fs" />
+    <Compile Include="Auth/View.fs" />
+    <Compile Include="Global.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="State.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.fsproj" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>

@@ -1,0 +1,6 @@
+{
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.rulers": [],
+  "FSharp.enableBackgroundSymbolCache": false
+}

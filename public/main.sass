@@ -1,0 +1,76 @@
+body, html
+  margin: 0
+  font-family: Roboto, Helvetica, Arial, sans-serif
+
+.main
+  margin: 10px auto 0
+  width: 1200px
+
+.basic
+  display: flex
+  flex-direction: column
+  &-split
+    display: flex
+  &-actions
+    padding: 10px
+    & .spinner
+      display: inline-block
+      margin-left: 20px
+      font-size: 14px
+
+.movie-list, .selected-movie
+  flex: 1
+  margin: 10px
+  min-height: 240px
+  padding: 20px
+
+.selected-movie
+  padding: 20px
+
+.movie-details
+  display: flex
+  &-img
+    width: 100px
+    & > img
+      width: 100px
+  &-text
+    display: flex
+    flex: 1
+    flex-direction: column
+    padding-left: 10px
+    padding-right: 10px
+
+.new-movie-form
+  margin: 10px
+  & > form
+    display: flex
+    flex-direction: column
+    padding: 20px
+    & > *
+      padding-bottom: 20px!important
+
+.empty-message
+  margin-top: 20px
+  padding-left: 10px
+  font-size: 30px
+
+.congrats
+  margin-top: 20px
+  padding-left: 10px
+  font-size: 40px
+
+.auth
+  display: flex
+  margin-top: 20px
+  & > *
+    flex: 1!important
+    min-height: 400px!important
+    padding: 20px!important
+    margin: 10px
+
+.auth-form
+  display: flex
+  flex-direction: column
+
+.auth-fav-movies
+  flex: 1

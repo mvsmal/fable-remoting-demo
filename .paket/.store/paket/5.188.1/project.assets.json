@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Paket/5.188.1": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.1/any": {
+      "Paket/5.188.1": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/Argu.dll": {},
+          "tools/netcoreapp2.1/any/Chessie.dll": {},
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/FSharp.Core.dll": {},
+          "tools/netcoreapp2.1/any/Mono.Cecil.Mdb.dll": {},
+          "tools/netcoreapp2.1/any/Mono.Cecil.Pdb.dll": {},
+          "tools/netcoreapp2.1/any/Mono.Cecil.Rocks.dll": {},
+          "tools/netcoreapp2.1/any/Mono.Cecil.dll": {},
+          "tools/netcoreapp2.1/any/Newtonsoft.Json.dll": {},
+          "tools/netcoreapp2.1/any/Paket.Core.dll": {},
+          "tools/netcoreapp2.1/any/Paket.Core.dll.config": {},
+          "tools/netcoreapp2.1/any/Paket.Core.pdb": {},
+          "tools/netcoreapp2.1/any/System.Configuration.ConfigurationManager.dll": {},
+          "tools/netcoreapp2.1/any/System.Net.Http.WinHttpHandler.dll": {},
+          "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "tools/netcoreapp2.1/any/System.Security.Cryptography.ProtectedData.dll": {},
+          "tools/netcoreapp2.1/any/cs/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/de/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/en/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/es/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/fr/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/it/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/ja/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/ko/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/paket.deps.json": {},
+          "tools/netcoreapp2.1/any/paket.dll": {},
+          "tools/netcoreapp2.1/any/paket.pdb": {},
+          "tools/netcoreapp2.1/any/paket.runtimeconfig.json": {},
+          "tools/netcoreapp2.1/any/pl/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/pt-BR/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/ru/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {},
+          "tools/netcoreapp2.1/any/tr/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hans/FSharp.Core.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hant/FSharp.Core.resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Paket/5.188.1": {
+      "sha512": "Ps8tH5QwcwLOITndPvX6R8GgsZsFcXgFyJZok+OdeLmdVIG6VxSsE4bboe67csGBY4dRSgChZEgtSakElm1ZwQ==",
+      "type": "package",
+      "path": "paket/5.188.1",
+      "files": [
+        ".signature.p7s",
+        "paket.5.188.1.nupkg.sha512",
+        "paket.nuspec",
+        "tools/netcoreapp2.1/any/Argu.dll",
+        "tools/netcoreapp2.1/any/Chessie.dll",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/FSharp.Core.dll",
+        "tools/netcoreapp2.1/any/Mono.Cecil.Mdb.dll",
+        "tools/netcoreapp2.1/any/Mono.Cecil.Pdb.dll",
+        "tools/netcoreapp2.1/any/Mono.Cecil.Rocks.dll",
+        "tools/netcoreapp2.1/any/Mono.Cecil.dll",
+        "tools/netcoreapp2.1/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.1/any/Paket.Core.dll",
+        "tools/netcoreapp2.1/any/Paket.Core.dll.config",
+        "tools/netcoreapp2.1/any/Paket.Core.pdb",
+        "tools/netcoreapp2.1/any/System.Configuration.ConfigurationManager.dll",
+        "tools/netcoreapp2.1/any/System.Net.Http.WinHttpHandler.dll",
+        "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/netcoreapp2.1/any/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp2.1/any/cs/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/de/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/en/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/es/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/fr/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/it/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/ja/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/ko/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/paket.deps.json",
+        "tools/netcoreapp2.1/any/paket.dll",
+        "tools/netcoreapp2.1/any/paket.pdb",
+        "tools/netcoreapp2.1/any/paket.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/pl/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/pt-BR/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/ru/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll",
+        "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp2.1/any/tr/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hans/FSharp.Core.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hant/FSharp.Core.resources.dll",
+        "tools/paket.exe"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "paket"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Mine\\Other\\Proj\\presentations\\fable.remoting\\basic\\.paket\\.store\\.stage\\h1enc1kb.oac": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SmalM50\\AppData\\Local\\Temp\\gsnsmlnh.iw4\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\SmalM50\\AppData\\Local\\Temp\\gsnsmlnh.iw4\\restore.csproj",
+      "packagesPath": "C:\\Mine\\Other\\Proj\\presentations\\fable.remoting\\basic\\.paket\\.store\\.stage\\h1enc1kb.oac",
+      "outputPath": "C:\\Mine\\Other\\Proj\\presentations\\fable.remoting\\basic\\.paket\\.store\\.stage\\h1enc1kb.oac\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\SmalM50\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "dependencies": {
+          "paket": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}
